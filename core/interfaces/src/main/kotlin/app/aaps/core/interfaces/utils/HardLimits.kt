@@ -7,15 +7,15 @@ interface HardLimits {
 
         // Very Hard Limits Ranges
         // First value is the Lowest and second value is the Highest a Limit can define
-        val LIMIT_MIN_BG = doubleArrayOf(80.0, 180.0)
-        val LIMIT_MAX_BG = doubleArrayOf(90.0, 200.0)
-        val LIMIT_TARGET_BG = doubleArrayOf(80.0, 200.0)
+        val LIMIT_MIN_BG = doubleArrayOf(55.0, 180.0)//KS from 80 to 55
+        val LIMIT_MAX_BG = doubleArrayOf(55.0, 200.0)//KS from 90 tp 55
+        val LIMIT_TARGET_BG = doubleArrayOf(80.0, 200.0)//KS from 80 to 55
 
         // Very Hard Limits Ranges for Temp Targets
-        val LIMIT_TEMP_MIN_BG = doubleArrayOf(72.0, 180.0)
-        val LIMIT_TEMP_MAX_BG = doubleArrayOf(72.0, 270.0)
-        val LIMIT_TEMP_TARGET_BG = doubleArrayOf(72.0, 200.0)
-        val MIN_DIA = doubleArrayOf(5.0, 5.0, 5.0, 5.0, 5.0)
+        val LIMIT_TEMP_MIN_BG = doubleArrayOf(55.0, 180.0)//KS from 72 to 55
+        val LIMIT_TEMP_MAX_BG = doubleArrayOf(55.0, 270.0)//KS from 72 to 55
+        val LIMIT_TEMP_TARGET_BG = doubleArrayOf(55.0, 200.0)//KS from 72 to 55
+        val MIN_DIA = doubleArrayOf(4.0, 4.0, 4.0, 4.0, 4.0)//KS from 5.0 to 5.0
         val MAX_DIA = doubleArrayOf(9.0, 9.0, 9.0, 9.0, 10.0)
         val MIN_IC = doubleArrayOf(2.0, 2.0, 2.0, 2.0, 0.3)
         val MAX_IC = doubleArrayOf(100.0, 100.0, 100.0, 100.0, 100.0)
@@ -23,7 +23,7 @@ interface HardLimits {
         const val MAX_ISF = 1000.0 // mgdl
         val MAX_IOB_AMA = doubleArrayOf(3.0, 5.0, 7.0, 12.0, 25.0)
         val MAX_IOB_SMB = doubleArrayOf(7.0, 13.0, 22.0, 30.0, 70.0)
-        val MAX_BASAL = doubleArrayOf(2.0, 5.0, 10.0, 12.0, 25.0)
+        val MAX_BASAL = doubleArrayOf(3.0, 5.0, 10.0, 12.0, 25.0)//KS from 2.0 to 3.0
 
         //LGS Hard limits
         //No IOB at all
