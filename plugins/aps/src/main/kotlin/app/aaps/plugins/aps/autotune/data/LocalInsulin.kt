@@ -41,7 +41,7 @@ class LocalInsulin(val name: String?, val peak: Int = DEFAULT_PEAK, private val 
 
     companion object {
 
-        private const val MIN_DIA = 5.0
+        private const val MIN_DIA = 4.0//KS 4.0 from 5.0
         private const val DEFAULT_DIA = 6.0
         private const val DEFAULT_PEAK = 75
     }
